@@ -1,0 +1,11 @@
+<h4>Borrar Personaje Por ID</h4>
+<form class="row" (ngSubmit)="emitId()">
+  <input
+    type="string"
+    [(ngModel)]="id"
+    name="id"
+    class="form-control"
+    placeholder="Id"
+  />
+  <button type="submit" class="btn btn-danger">Eliminar</button>
+</form>
